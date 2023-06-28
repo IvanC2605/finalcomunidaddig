@@ -10,7 +10,7 @@ pip.main(["install", "requirements.txt", "plotly", "numpy"])
 
 
 
-st.title('Titulo del Proyecto')
+st.title('Dasboard fallecimientos covid 19')
 
 data = pd.read_excel('fallecidos_covid.xlsx', sheet_name='Worksheet')
 print(data.head())
