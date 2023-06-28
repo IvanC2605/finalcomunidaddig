@@ -4,6 +4,9 @@ import plotly.express as px
 import pandas as pd
 import numpy as np
 
+import pip 
+pip.main(["install", "openpyxl", "plotly"])
+
 st.title('Titulo del Proyecto')
 
 data = pd.read_excel('fallecidos_covid.xlsx', sheet_name='Worksheet')
