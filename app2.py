@@ -6,6 +6,8 @@ import numpy as np
 
 import pip 
 pip.main(["install", "openpyxl", "plotly", "numpy"])
+pip install --upgrade plotly streamlit
+
 
 st.title('Titulo del Proyecto')
 
