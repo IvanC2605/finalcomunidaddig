@@ -4,7 +4,9 @@ import plotly.express as px
 import pandas as pd
 import numpy as np
 
-pip install -r requirements.txt
+import pip 
+pip.main(["install", "requirements.txt", "plotly", "numpy"])
+
 
 
 
