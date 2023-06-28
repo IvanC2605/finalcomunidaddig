@@ -5,8 +5,8 @@ import pandas as pd
 import numpy as np
 
 import pip 
-pip.main(["install", "openpyxl", "plotly", "numpy"])
-pip install --upgrade plotly streamlit
+pip install -r */requirements.txt
+
 
 
 st.title('Titulo del Proyecto')
