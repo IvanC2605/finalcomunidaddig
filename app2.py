@@ -5,7 +5,7 @@ import pandas as pd
 import numpy as np
 
 import pip 
-pip.main(["install", "openpyxl", "plotly"])
+pip.main(["install", "openpyxl", "plotly", "numpy"])
 
 st.title('Titulo del Proyecto')
 
